@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv-linux/
+venv/
+env/
+
+# Dataset files
+data/raw/*.csv
+data/processed/*.csv
+
+# User data and secrets
+user_data/*.json
+.streamlit/secrets.toml
+.env
+
+# Generated models
+models/*.pkl
+models/*.joblib
+
+# Editors and operating systems
+.vscode/
+.DS_Store
+Thumbs.db
